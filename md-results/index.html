@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryland Election Results</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Maryland Election Results</h1>
+        
+        <div class="view-selector">
+            <button id="statewide-btn" class="active">Statewide Results</button>
+            <button id="county-btn">County Results</button>
+        </div>
 
+        <div id="statewide-view" class="view-content">
+            <h2>Statewide Results</h2>
+            <div class="results-container">
+                <div id="statewide-totals" class="totals-section">
+                    <h3>Vote Totals</h3>
+                    <div id="statewide-totals-data" class="results-data"></div>
+                </div>
+                
+                <div id="statewide-percentages" class="percentages-section">
+                    <h3>Vote Percentages</h3>
+                    <div id="statewide-percentages-data" class="results-data"></div>
+                </div>
+            </div>
+            <div class="chart-container">
+                <h3>Vote Distribution</h3>
+                <div id="statewide-chart" class="chart"></div>
+            </div>
+        </div>
+
+        <div id="county-view" class="view-content hidden">
+            <h2>County Results</h2>
+            <div class="county-selector">
+                <label for="county-dropdown">Select County:</label>
+                <select id="county-dropdown"></select>
+            </div>
+            <div class="results-container">
+                <div id="county-totals" class="totals-section">
+                    <h3>Vote Totals</h3>
+                    <div id="county-totals-data" class="results-data"></div>
+                </div>
+                
+                <div id="county-percentages" class="percentages-section">
+                    <h3>Vote Percentages</h3>
+                    <div id="county-percentages-data" class="results-data"></div>
+                </div>
+            </div>
+            <div class="chart-container">
+                <h3>Vote Distribution</h3>
+                <div id="county-chart" class="chart"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
