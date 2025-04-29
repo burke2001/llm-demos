@@ -16,4 +16,4 @@ I unfortunately was unable to tweak the results, as Claude "ran into unexpected 
 
 I can see a site like this being helpful in publishing a major project. For example, a website could help readers navigate a complicated topic with many factors, like the current Howard Center hazardous derailments project. Keeping things like that organized in the form of a website could be a useful medium for publishing reports with a lot of statistics and data. To accomplish this, I would probably need a very detailed prompt assigning data to specific webpages. A single-pager could possibly work, if we were making use of those drop-down menus, but it would be a very long page.
 
-Claude Transcript: https://claude.ai/public/artifacts/44a8dbb4-a6cb-4972-aa5e-d28c7e5cf0d0
+Claude Transcript: https://claude.ai/share/efee3f5d-7cf8-44f8-a22f-5da687a5aa09
